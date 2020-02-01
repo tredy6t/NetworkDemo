@@ -18,12 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LibeventHelper.cpp">
+    <ClCompile Include="LibeventServer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LibeventHelper.h">
+    <ClInclude Include="LibeventServer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
