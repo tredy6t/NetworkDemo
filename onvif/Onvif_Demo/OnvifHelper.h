@@ -20,7 +20,6 @@ struct DeviceInfo
 class OnvifHelper
 {
 public:
-    
     int DiscoveryDevice();
     int GetCameraRtsp(const std::string& ip, const std::string& user, const std::string& password, std::string& rtsp);
     int GetLocalIps(std::map<std::string, std::set<std::string> >& ips);
